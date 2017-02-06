@@ -1,0 +1,91 @@
+* {
+	list-style:			none;
+	text-decoration: 	none;
+	padding: 			0;
+	margin: 			0;
+}
+/*logo tot en met dropdown #1*/ 
+img.logo {
+    display: 			block;
+    margin-left: 		auto;
+    margin-right: 		auto; 
+}
+
+ul#navmenu, ul.sub1 {
+	list-style-type:none;
+	font-size: 10pt;
+}
+ul#navmenu li {
+	/*outline: 1px solid red;*/
+	width: 135px;/* 125px origineel */
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-right: 4px;	
+}
+ul#navmenu a {
+	font-family: "Lucida Console", monospace;
+	text-decoration: none;
+	display: block;
+	width: 135px; /* 125px origineel */
+	height: 40px; /* 25px origineel*/
+	line-height: 40px; /* 25px  origineel*/
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 0px; /* 5px origineel */
+}
+
+ul#navmenu .sub1 a {
+	margin-top: 11px; /* 5px */
+
+}
+
+
+ul#navmenu li:hover > a {
+	background-color: #33CCFF;
+	color: white;
+}
+
+ul#navmenu li:hover a:hover {
+	background-color: #33CCFF;
+	color: white;
+}
+
+ul#navmenu ul.sub1 {
+	display: none;
+	position: absolute;
+	top: 32px;/*26px;*/
+	left:0px;
+}
+
+ul#navmenu li:hover .sub1 {
+	display:block;
+}
+
+.darrow {
+	font-size: 11pt;
+	position: absolute;
+	top: 5px;
+	right: 4px;
+}
+
+
+body {
+	background-color:	#ffffff  ;
+}
+
+p {
+	text-align:			left;
+	font-family: 		helvetica, sans-serif;
+	color: 				black;
+}
+
+
+ label{
+  width:250px;
+  float:left;
+ }
+
+ div.text1{
+     text-align: center;
+ }
